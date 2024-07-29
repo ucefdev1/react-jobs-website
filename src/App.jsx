@@ -1,20 +1,32 @@
-import Navbar from "./assets/componenets/Navbar";
-import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
-import Hero from "./assets/componenets/Hero";
-import CardsHome from "./assets/componenets/CardsHome";
-import JobsListings from "./assets/componenets/JobsListings";
-import ViewAllJobs from "./assets/componenets/ViewAllJobs";
+
+import  {Route, 
+  createBrowserRouter, 
+  createRoutesFromElements, 
+  RouterProvider
+} from 'react-router-dom';
+
+import HomePage from './assets/pages/HomePage';
+import MainLayout from './assets/layouts/MainLayout';
+import Jobs from './assets/pages/Jobs';
+import NotFound from './assets/pages/NotFound';
 
 const App = () => {
   
+const router = createBrowserRouter(
+  createRoutesFromElements(
+     <Route path='/' element = {<MainLayout/> }>
+      <Route index element= { <HomePage/> }/>
+      <Route path='jobs' element= { <Jobs/> }/>
+      <Route path='*' element= { <NotFound/> }/>
+     </Route>
+
+     
+)
+
+)
+
   return (
-    <div >
-      <Navbar></Navbar>
-      <Hero title="Become a Laravel/React Dev" subTitle="Find All projects that feed your skills"></Hero>
-      <CardsHome></CardsHome>
-      <JobsListings></JobsListings>
-      <ViewAllJobs></ViewAllJobs>
-    </div>
+    <RouterProvider router={router}/>
   )
 }
 

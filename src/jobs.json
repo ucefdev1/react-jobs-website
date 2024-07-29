@@ -1,0 +1,215 @@
+{
+  "jobs" :[
+  {
+      "id": "1",
+      "title": "Senior React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a talented Front-End Developer to join our team in Casablanca. The ideal candidate will have strong skills in HTML, CSS, and JavaScript, with experience in modern JavaScript frameworks such as React or Angular.",
+      "location": "Casablanca",
+      "salary": "70K MAD - 80K MAD",
+      "company": {
+          "name": "InnoTech Solutions",
+          "description": "InnoTech Solutions is a leading technology company specializing in web development and digital solutions. We pride ourselves on delivering high-quality products and services to our clients while fostering a collaborative and innovative work environment.",
+          "contactEmail": "contact@innotech.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "2",
+      "title": "Front-End Engineer (React & Redux)",
+      "type": "Full-Time",
+      "description": "Join our team as a Front-End Developer in Marrakech. We are looking for a motivated individual with a passion for crafting beautiful and responsive web applications. Experience with UI/UX design principles and a strong attention to detail are highly desirable.",
+      "location": "Marrakech",
+      "salary": "70K MAD - 80K MAD",
+      "company": {
+          "name": "Creative Solutions",
+          "description": "Creative Solutions is a creative agency specializing in digital design and development. Our team is dedicated to pushing the boundaries of creativity and innovation to deliver exceptional results for our clients.",
+          "contactEmail": "contact@creativesolutions.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "3",
+      "title": "React.js Developer",
+      "type": "Full-Time",
+      "description": "Are you passionate about front-end development? Join our team in Rabat and work on exciting projects that make a difference. We offer competitive compensation and a collaborative work environment where your ideas are valued.",
+      "location": "Rabat",
+      "salary": "70K MAD - 80K MAD",
+      "company": {
+          "name": "Tech Cloud",
+          "description": "Tech Cloud is a leading technology company specializing in digital solutions for businesses of all sizes. With a focus on innovation and customer satisfaction, we are committed to delivering cutting-edge products and services.",
+          "contactEmail": "contact@techcloud.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "4",
+      "title": "React Front-End Developer",
+      "type": "Part-Time",
+      "description": "Join our team as a Part-Time Front-End Developer in Tangier. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
+      "location": "Tangier",
+      "salary": "60K MAD - 70K MAD",
+      "company": {
+          "name": "Digital Elite",
+          "description": "Digital Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
+          "contactEmail": "contact@digitalelite.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "5",
+      "title": "Full Stack React Developer",
+      "type": "Full-Time",
+      "description": "Exciting opportunity for a Full-Time Full Stack Developer in Agadir. We are seeking a talented individual with a passion for building elegant and scalable web applications. Join our team and make an impact!",
+      "location": "Agadir",
+      "salary": "90K MAD - 100K MAD",
+      "company": {
+          "name": "Agadir Tech",
+          "description": "Agadir Tech is a rapidly growing technology company specializing in e-commerce solutions. We offer a dynamic and collaborative work environment where employees are encouraged to think creatively and innovate.",
+          "contactEmail": "contact@agadirtech.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "6",
+      "title": "React Native Developer",
+      "type": "Full-Time",
+      "description": "Join our team as a Front-End Developer in Fes. We are looking for a skilled and enthusiastic individual to help us create innovative web solutions. Competitive salary and great benefits package available.",
+      "location": "Fes",
+      "salary": "100K MAD - 110K MAD",
+      "company": {
+          "name": "Fes Solutions INC",
+          "description": "Fes Solutions is a leading technology company specializing in software development and digital marketing. We are committed to providing our clients with cutting-edge solutions and our employees with a supportive and rewarding work environment.",
+          "contactEmail": "contact@fessolutions.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "7",
+      "title": "Junior React Developer",
+      "type": "Full-Time",
+      "description": "We are looking for a Junior React Developer to join our team in Oujda. This role is perfect for someone looking to grow their skills in a dynamic and supportive environment.",
+      "location": "Oujda",
+      "salary": "60K MAD - 70K MAD",
+      "company": {
+          "name": "Innovate Tech",
+          "description": "Innovate Tech is a forward-thinking tech company specializing in mobile and web application development. We focus on creating innovative solutions that meet our clients' needs.",
+          "contactEmail": "contact@innovate.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "8",
+      "title": "React Developer (Contract)",
+      "type": "Contract",
+      "description": "Looking for a skilled React Developer for a 6-month contract role in Tetouan. The ideal candidate will have experience in developing responsive web applications.",
+      "location": "Tetouan",
+      "salary": "500 MAD/hr",
+      "company": {
+          "name": "Tech Wave",
+          "description": "Tech Wave is a technology consulting firm that provides cutting-edge solutions to businesses. We value innovation and excellence in all our projects.",
+          "contactEmail": "contact@techwave.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "9",
+      "title": "React and Node.js Developer",
+      "type": "Full-Time",
+      "description": "Join our team in Meknes as a React and Node.js Developer. We are looking for someone with strong backend and frontend skills to help build and maintain our web applications.",
+      "location": "Meknes",
+      "salary": "80K MAD - 90K MAD",
+      "company": {
+          "name": "CodeWorks",
+          "description": "CodeWorks is a software development company specializing in full-stack web development. We pride ourselves on delivering high-quality solutions to our clients.",
+          "contactEmail": "contact@codeworks.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "10",
+      "title": "React Developer Intern",
+      "type": "Internship",
+      "description": "We are looking for a React Developer Intern to join our team in Kenitra. This internship offers hands-on experience in developing web applications using React.",
+      "location": "Kenitra",
+      "salary": "20 MAD/hr",
+      "company": {
+          "name": "Bright Future",
+          "description": "Bright Future is a startup focused on creating innovative solutions in the education sector. We are passionate about using technology to make a positive impact.",
+          "contactEmail": "contact@brightfuture.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "11",
+      "title": "Remote React Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a Remote React Developer to join our team. This is a fully remote position, offering flexibility and the opportunity to work with a diverse team.",
+      "location": "Remote",
+      "salary": "80K MAD - 90K MAD",
+      "company": {
+          "name": "Tech Innovators",
+          "description": "Tech Innovators is a global company specializing in software development and consulting services. We offer a collaborative and supportive work environment.",
+          "contactEmail": "contact@techinnovators.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "12",
+      "title": "React UI/UX Designer",
+      "type": "Full-Time",
+      "description": "We are looking for a creative React UI/UX Designer to join our team in Nador. The ideal candidate will have a strong portfolio and experience in designing user-friendly interfaces.",
+      "location": "Nador",
+      "salary": "70K MAD - 80K MAD",
+      "company": {
+          "name": "Design Hub",
+          "description": "Design Hub is a design and technology company specializing in creating innovative user experiences. We are dedicated to excellence in design and customer satisfaction.",
+          "contactEmail": "contact@designhub.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "13",
+      "title": "Senior React Native Developer",
+      "type": "Full-Time",
+      "description": "Join our team in Laayoune as a Senior React Native Developer. We are looking for an experienced developer to lead our mobile development projects.",
+      "location": "Laayoune",
+      "salary": "100K MAD - 120K MAD",
+      "company": {
+          "name": "Mobile Masters",
+          "description": "Mobile Masters is a leading mobile app development company. We specialize in creating high-quality mobile applications for various industries.",
+          "contactEmail": "contact@mobilemasters.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "14",
+      "title": "React and GraphQL Developer",
+      "type": "Full-Time",
+      "description": "We are seeking a React and GraphQL Developer to join our team in Ouarzazate. The ideal candidate will have experience in building scalable web applications.",
+      "location": "Ouarzazate",
+      "salary": "90K MAD - 100K MAD",
+      "company": {
+          "name": "GraphQL Experts",
+          "description": "GraphQL Experts is a company specializing in modern web technologies. We focus on delivering high-performance web applications using the latest technologies.",
+          "contactEmail": "contact@graphql.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  },
+  {
+      "id": "15",
+      "title": "React and Vue.js Developer",
+      "type": "Full-Time",
+      "description": "Join our team in Safi as a React and Vue.js Developer. We are looking for a versatile developer to work on various front-end projects.",
+      "location": "Safi",
+      "salary": "80K MAD - 90K MAD",
+      "company": {
+          "name": "Front-End Innovators",
+          "description": "Front-End Innovators is a company dedicated to providing cutting-edge front-end solutions. We value innovation and creativity in our team.",
+          "contactEmail": "contact@frontendinnovators.ma",
+          "contactPhone": "+212 600 000 000"
+      }
+  }
+]
+
+}
