@@ -23,7 +23,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="mt-4 text-center">
+        {/* <div className="mt-4 text-center">
           <p>Follow us on:</p>
           <div className="flex justify-center space-x-4 mt-2">
             <a href="#" className="text-gray-400 hover:text-white">
@@ -39,7 +39,7 @@ const Footer = () => {
               <i className="fab fa-instagram"></i>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
     </footer>
   );
