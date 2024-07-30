@@ -1,12 +1,31 @@
 // import { useEffect, useState } from "react";
-import { useParams, useLoaderData } from "react-router-dom";
+import { useParams, useLoaderData, useNavigate } from "react-router-dom";
 import { GridLoader } from "react-spinners";
 import  ViewAllJobs from "../componenets/ViewAllJobs";
+import { toast } from "react-toastify";
+import { Link } from "react-router-dom";
 
 
-const JobPage = () => {
+
+const JobPage = ({deleteJob}) => {
   const job = useLoaderData();
  const { id } = useParams();
+
+ const navigate =  useNavigate();
+
+ const onDeleteClick = (jobId) => {
+  const confirm = window.confirm('Are You Sure you want to delete this listing')
+  if (!confirm){
+    return
+  }
+  else{
+    deleteJob(jobId);
+
+    toast.success('Job deleted successfully');
+
+    navigate('/jobs');
+  }
+ }
 //   const [job, setJob] = useState(null);
 //   const [loading, setLoading] = useState(true);
 
@@ -44,10 +63,14 @@ return (
         <div>
        
        <div className="flex flex-row space-x-4 mb-4">
-  <div className="w-1/2 hover:bg-black bg-blue-600 p-4 font-bold text-white text-center cursor-pointer">
+  <Link to={`/edit-job/${id}`} className="w-1/2 hover:bg-black bg-blue-600 p-4 font-bold text-white text-center cursor-pointer">
     Edit Job
-  </div>
-  <div className="w-1/2 hover:bg-black bg-red-600 p-4 font-bold text-white text-center cursor-pointer">
+  </Link>
+  <div onClick={
+    ()=>{
+      onDeleteClick(id)
+    }
+  } className="w-1/2 hover:bg-black bg-red-600 p-4 font-bold text-white text-center cursor-pointer">
     Delete Job
   </div>
 </div>
@@ -96,5 +119,8 @@ const res = await fetch(`/api/jobs/${params.id}`);
 const data = await res.json();
 return data;
 }
+
+
+
 
 export { JobPage as default, jobLoader };

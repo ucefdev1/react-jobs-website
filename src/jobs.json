@@ -44,11 +44,11 @@
     },
     {
       "id": "4",
-      "title": "React Front-End Developer",
+      "title": "React Front-End Dev",
       "type": "Part-Time",
-      "description": "Join our team as a Part-Time Front-End Developer in Tangier. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
       "location": "Tangier",
       "salary": "60K MAD - 70K MAD",
+      "description": "Join our team as a Part-Time Front-End Developer in Tangier. We are looking for a self-motivated individual with a passion for creating engaging user experiences. This position offers flexible hours and the opportunity to work remotely.",
       "company": {
         "name": "Digital Elite",
         "description": "Digital Elite is a dynamic startup specializing in digital marketing and web development. We are committed to fostering a diverse and inclusive workplace where creativity and innovation thrive.",
@@ -127,20 +127,6 @@
       }
     },
     {
-      "id": "10",
-      "title": "React Developer Intern",
-      "type": "Internship",
-      "description": "We are looking for a React Developer Intern to join our team in Kenitra. This internship offers hands-on experience in developing web applications using React.",
-      "location": "Kenitra",
-      "salary": "20 MAD/hr",
-      "company": {
-        "name": "Bright Future",
-        "description": "Bright Future is a startup focused on creating innovative solutions in the education sector. We are passionate about using technology to make a positive impact.",
-        "contactEmail": "contact@brightfuture.ma",
-        "contactPhone": "+212 600 000 000"
-      }
-    },
-    {
       "id": "11",
       "title": "Remote React Developer",
       "type": "Full-Time",
@@ -211,17 +197,31 @@
       }
     },
     {
-      "id": "1722360781762",
-      "title": "test title",
+      "id": "1722368041225",
+      "title": "Mr.",
       "type": "Full-Time",
-      "location": "Marrakesh",
-      "salary": "70K MAD - 80K MAD",
-      "description": "test description",
+      "location": "occupation",
+      "salary": "30K MAD - 35K MAD",
+      "description": "this is a comment",
       "company": {
-        "name": "Google",
-        "description": "test description",
-        "contactEmail": "ejemplo@ejemplo.mx",
-        "contactPhone": "5553428400"
+        "name": "company name",
+        "description": "this is a comment",
+        "contactEmail": "me@mydomain.com",
+        "contactPhone": "(123) 456-7890"
+      }
+    },
+    {
+      "id": "1722368772646",
+      "title": "Mr.",
+      "type": "Part-Time",
+      "location": "occupation",
+      "salary": "35K MAD - 40K MAD",
+      "description": "this is a comment",
+      "company": {
+        "name": "company name",
+        "description": "this is a comment",
+        "contactEmail": "me@mydomain.com",
+        "contactPhone": "(123) 456-7890"
       }
     }
   ]
