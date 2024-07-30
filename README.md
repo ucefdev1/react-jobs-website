@@ -3,6 +3,9 @@
 
 Welcome to **Ucef Jobs**, a platform where users can find job listings for React and Laravel developers. This project aims to make job searching easier and more efficient by providing a simple and intuitive interface.
 
+![Ucef-jobs](https://github.com/user-attachments/assets/702043ae-3055-48f7-8ea5-1af18a3edbd7)
+
+
 ## Table of Contents
 
 - [Features](#features)
@@ -53,23 +56,23 @@ To run this project, you'll need the following installed on your machine:
    npm install
    ```
 
-4. **Start the development server:**
+4. **Running the JSON Server:**
+
+   This project uses JSON Server to simulate a backend API for job listings. To run the JSON Server, use the following command:
 
    ```
-   npm start
+   npm run server
+   ```
+
+   The JSON Server will start at `http://localhost:5000`, where you can access the fake API endpoints.
+
+5. **Start the development server:**
+
+   ```
+   npm run dev
    ```
 
    The application will open in your default browser at `http://localhost:3000`.
-
-### Running the JSON Server
-
-This project uses JSON Server to simulate a backend API for job listings. To run the JSON Server, use the following command:
-
-```
-npm run server
-```
-
-The JSON Server will start at `http://localhost:5000`, where you can access the fake API endpoints.
 
 ## Usage
 
@@ -92,7 +95,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgements
 
-This project was built with the help of a tutorial from Traversy Media. A big thank you to Brad Traversy for his excellent content and tutorials. You can find the tutorial [here](https://www.youtube.com/watch?v=LDB4uaJ87e0) if you're interested in learning more.
+This project was built with the help of a tutorial from Traversy Media. A big thank you to Brad Traversy for his excellent content and tutorials. You can find the tutorial [here](https://www.youtube.com/user/TechGuyWeb) if you're interested in learning more.
 
 ## Contact
 
