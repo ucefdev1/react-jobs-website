@@ -11,7 +11,7 @@ const JobsListings = ({ isHome }) => {
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const res = await fetch( isHome ? 'http://localhost:8000/jobs?_limit=4' : 'http://localhost:8000/jobs');
+        const res = await fetch( isHome ? '/api/jobs?_limit=4' : '/api/jobs');
         const data = await res.json();
         setJobs(data);
       } catch (error) {
