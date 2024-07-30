@@ -53,6 +53,14 @@ To run this project, you'll need the following installed on your machine:
    npm install
    ```
 
+4. **Start the development server:**
+
+   ```
+   npm start
+   ```
+
+   The application will open in your default browser at `http://localhost:3000`.
+
 ### Running the JSON Server
 
 This project uses JSON Server to simulate a backend API for job listings. To run the JSON Server, use the following command:
@@ -84,7 +92,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgements
 
-This project was built with the help of a tutorial from Traversy Media. A big thank you to Brad Traversy for his excellent content and tutorials. You can find the tutorial [here](https://www.youtube.com/user/TechGuyWeb) if you're interested in learning more.
+This project was built with the help of a tutorial from Traversy Media. A big thank you to Brad Traversy for his excellent content and tutorials. You can find the tutorial [here](https://www.youtube.com/watch?v=LDB4uaJ87e0) if you're interested in learning more.
 
 ## Contact
 
