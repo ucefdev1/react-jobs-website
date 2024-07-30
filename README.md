@@ -37,29 +37,29 @@ To run this project, you'll need the following installed on your machine:
 
 1. **Clone the repository:**
 
-   \`\`\`bash
+   ```
    git clone https://github.com/ucefdev1/ucef-jobs.git
-   \`\`\`
+   ```
 
 2. **Navigate to the project directory:**
 
-   \`\`\`bash
+   ```
    cd ucef-jobs
-   \`\`\`
+   ```
 
 3. **Install dependencies:**
 
-   \`\`\`bash
+   ```
    npm install
-   \`\`\`
+   ```
 
 ### Running the JSON Server
 
 This project uses JSON Server to simulate a backend API for job listings. To run the JSON Server, use the following command:
 
-\`\`\`bash
+```
 npm run server
-\`\`\`
+```
 
 The JSON Server will start at `http://localhost:5000`, where you can access the fake API endpoints.
 
